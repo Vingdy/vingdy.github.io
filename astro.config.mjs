@@ -31,7 +31,7 @@ const oklchToHex = (str) => {
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://Vingdy.github.io",
+  site: "https://vingdy.github.io",
   base: "/",
   trailingSlash: "always",
   integrations: [
