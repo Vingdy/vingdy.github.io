@@ -31,7 +31,7 @@ const oklchToHex = (str) => {
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://Vingdy.github.io",
+  site: "https://Vingdy.github.ioy",
   base: "/",
   trailingSlash: "always",
   integrations: [
@@ -41,7 +41,7 @@ export default defineConfig({
       animationClass: 'transition-swup-',   // see https://swup.js.org/options/#animationselector
                                             // the default value `transition-` cause transition delay
                                             // when the Tailwind class `transition-all` is used
-      containers: ['main'],
+      containers: ['master'],
       smoothScrolling: true,
       cache: true,
       preload: true,
